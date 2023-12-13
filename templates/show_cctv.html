@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CCTV</title>
+    <script src= "/static/project.js" type="text/javascript"></script>
+
+    <meta http-equiv="refresh" content="0.5"> <!-- 2초마다 페이지 새로고침 -->
+</head>
+<body>
+    <input type="button" onclick="switchToindex()" value="돌아가기">
+    <hr>
+    {% if img_data %}
+        <img src="data:image/jpeg;base64,{{ img_data }}">
+    {% else %}
+        <p>No image available.</p> 
+
+    {% endif %}
+</body>
+</html>

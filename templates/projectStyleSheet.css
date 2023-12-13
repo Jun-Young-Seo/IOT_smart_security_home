@@ -1,0 +1,96 @@
+body {
+    background-color: #FDFDFD;
+    color: #000;
+    margin: 0;
+  }
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#temp-messages {
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin: 20px auto; /* 상하 마진 20px, 좌우 마진 자동 */
+    padding: 10px; /* 패딩 10px */
+    border: 1px solid #ddd; /* 경계선 */
+    border-radius: 4px; /* 둥근 경계선 */
+    box-shadow: 2px 2px 5px #aaa; /* 그림자 효과 */
+    background-color: #F5F5F5; /* 배경색 */
+    width: 80%; /* 너비 80% */
+    max-width: 600px; /* 최대 너비 600px */
+}
+#connect-message {
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin: 20px auto; /* 상하 마진 20px, 좌우 마진 자동 */
+    padding: 10px; /* 패딩 10px */
+    border: 1px solid #ddd; /* 경계선 */
+    border-radius: 4px; /* 둥근 경계선 */
+    box-shadow: 2px 2px 5px #aaa; /* 그림자 효과 */
+    background-color: #F5F5F5; /* 배경색 */
+    width: 80%; /* 너비 80% */
+    max-width: 600px; /* 최대 너비 600px */
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+}
+#centeralign {
+    text-align: center;
+}
+#highlight-title {    
+    background-color: #FCEBDB; /* 연한 배경색 또는 투명도 조절 */
+    border-bottom: 1px solid #ccc; /* 아래쪽 테두리만 설정 */
+    padding: 10px; /* 내부 여백 */
+    margin: 10px auto; /* 상하 여백 10px, 좌우 자동 */
+    display: inline-block; /* 박스를 내용에 맞춰 크기 조정 */
+    font-size: 1.5em; /* 글꼴 크기 조정 */
+    font-weight: bold; /* 글꼴 무게 */
+    max-width: 80%; /* 최대 너비 설정 */
+}
+hr{
+    border: none;
+    height: 10px;
+    background-color: #BC8F8F; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+#connection-form, #invade-form, #streaming-form {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+input[type=text], input[type=button] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type=button] {
+    background-color: #5CACEE;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #1E90FF;
+}
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 만약 이미지가 수직으로도 중앙에 오기를 원한다면 이 속성을 유지합니다. */
+    margin-top: 20px; /* 버튼과의 간격을 위해 상단 마진 추가 */
+    margin-bottom: 20px; /* 다음 섹션과의 간격을 위해 하단 마진 추가 */
+}
+
+#alertImage {
+    display: flex;
+    flex-direction: row; /* 이미지를 가로로 배열 */
+    justify-content: center;
+}
+
+#fireImg, #thiefImg {
+    margin: 0 10px; /* 이미지 사이의 좌우 간격 */
+}
