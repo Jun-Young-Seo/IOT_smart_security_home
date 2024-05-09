@@ -1,4 +1,7 @@
-![image](https://github.com/Jun-Young-Seo/IOT_smart_security_home/assets/128452954/298fc368-7e98-473e-9259-9c0a6688ca8e)# smart IOT security system
+# 자취생을 위한 스마트 IOT 홈 보안 시스템!
+
+
+### 제작기간 약 1개월 2023년 11월~ 2023년 12월
 
 ## 시스템 개요
 
